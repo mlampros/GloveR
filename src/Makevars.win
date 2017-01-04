@@ -1,0 +1,3 @@
+#For older gcc, use -O3 or -O2 instead of -Ofast
+PKG_CFLAGS = -lm -pthread -Ofast -march=native -funroll-loops -Wno-unused-result
+PKG_LIBS = -mthreads

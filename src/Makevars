@@ -1,0 +1,6 @@
+#For older gcc, use -O3 or -O2 instead of -Ofast
+PKG_CFLAGS = -lm -pthread -Ofast -march=native -funroll-loops -Wno-unused-result
+PKG_CXXFLAGS = $(SHLIB_OPENMP_CXXFLAGS)
+PKG_LIBS = $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS) $(SHLIB_OPENMP_CXXFLAGS)
+CXX_STD = CXX11
+PKG_CPPFLAGS =	-I../inst/include/

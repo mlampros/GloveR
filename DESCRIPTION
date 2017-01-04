@@ -1,0 +1,16 @@
+Package: GloveR
+Type: Package
+Title: Global Vectors for Word Representation (Glove)
+Version: 1.0.0
+Author: Lampros Mouselimis <mouselimislampros@gmail.com>
+Maintainer: Lampros Mouselimis <mouselimislampros@gmail.com>
+BugReports: https://github.com/mlampros/GloveR/issues
+URL: https://github.com/mlampros/GloveR
+Description: The GloveR package is a wrapper for the Global Vectors for Word Representation (http://nlp.stanford.edu/projects/glove/) (GloVe). 'GloVe' is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.
+License: GPL-3 + (COPYRIGHTS, LICENSE)
+Copyright: inst/COPYRIGHTS
+LazyData: TRUE
+Depends:
+    R(>= 3.2.3)
+RoxygenNote: 5.0.1
+Suggests: covr

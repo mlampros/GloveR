@@ -1,0 +1,7 @@
+useDynLib(GloveR)
+importFrom(Rcpp, evalCpp)
+
+export(Glove)
+export(cooccurrence_statistics)
+export(shuffle_cooccurrences)
+export(vocabulary_counts)
