@@ -1,5 +1,4 @@
 useDynLib(GloveR)
-importFrom(Rcpp, evalCpp)
 
 export(Glove)
 export(cooccurrence_statistics)
