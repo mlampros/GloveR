@@ -1,4 +1,5 @@
-
+[![Travis-CI Build Status](https://travis-ci.org/mlampros/GloveR.svg?branch=master)](https://travis-ci.org/mlampros/GloveR)
+[![codecov.io](https://codecov.io/github/mlampros/GloveR/coverage.svg?branch=master)](https://codecov.io/github/mlampros/GloveR?branch=master)
 
 ## GloveR
 <br>
