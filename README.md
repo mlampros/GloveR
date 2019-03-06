@@ -1,5 +1,7 @@
 [![Travis-CI Build Status](https://travis-ci.org/mlampros/GloveR.svg?branch=master)](https://travis-ci.org/mlampros/GloveR)
 [![codecov.io](https://codecov.io/github/mlampros/GloveR/coverage.svg?branch=master)](https://codecov.io/github/mlampros/GloveR?branch=master)
+<a href="https://www.buymeacoffee.com/VY0x8snyh" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" height="21px" ></a>
+
 
 ## GloveR
 <br>
