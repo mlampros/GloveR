@@ -39,4 +39,3 @@ http://nlp.stanford.edu/projects/glove/
 
 http://nlp.stanford.edu/pubs/glove.pdf
 }
-

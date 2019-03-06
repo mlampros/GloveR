@@ -5,8 +5,9 @@
 \title{cooccurence statistics}
 \usage{
 cooccurrence_statistics(train_data = NULL, vocab_input = NULL,
-  output_cooccurences = NULL, symmetric_both = TRUE, context_words = 15,
-  memory_gb = 4, MAX_product = 0, overflowLength = 0, trace = FALSE)
+  output_cooccurences = NULL, symmetric_both = TRUE,
+  context_words = 15, memory_gb = 4, MAX_product = 0,
+  overflowLength = 0, trace = FALSE)
 }
 \arguments{
 \item{train_data}{a character string specifying the path to the train text file}
@@ -50,4 +51,3 @@ http://nlp.stanford.edu/projects/glove/
 
 http://nlp.stanford.edu/pubs/glove.pdf
 }
-

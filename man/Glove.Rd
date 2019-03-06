@@ -5,9 +5,10 @@
 \title{GloVe (Global Vectors for Word Representation)}
 \usage{
 Glove(input_cooccurences = NULL, output_vectors = NULL,
-  vocab_input = NULL, model_output = 0, iter_num = 5, learn_rate = 0.1,
-  save_squared_grads_file = NULL, alpha_weight = 0.75, cutoff = 100,
-  binary_output = 0, vectorSize = 10, threads = 1, trace = FALSE)
+  vocab_input = NULL, model_output = 0, iter_num = 5,
+  learn_rate = 0.1, save_squared_grads_file = NULL,
+  alpha_weight = 0.75, cutoff = 100, binary_output = 0,
+  vectorSize = 10, threads = 1, trace = FALSE)
 }
 \arguments{
 \item{input_cooccurences}{a character string specifying the path to the cooccurences text file}
@@ -63,4 +64,3 @@ http://nlp.stanford.edu/projects/glove/
 
 http://nlp.stanford.edu/pubs/glove.pdf
 }
-

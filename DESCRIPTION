@@ -1,7 +1,8 @@
 Package: GloveR
 Type: Package
 Title: Global Vectors for Word Representation (Glove)
-Version: 1.0.0
+Version: 1.0.1
+Date: 2019-03-06
 Author: Lampros Mouselimis <mouselimislampros@gmail.com>
 Maintainer: Lampros Mouselimis <mouselimislampros@gmail.com>
 BugReports: https://github.com/mlampros/GloveR/issues
@@ -12,5 +13,5 @@ Copyright: inst/COPYRIGHTS
 LazyData: TRUE
 Depends:
     R(>= 3.2.3)
-RoxygenNote: 5.0.1
+RoxygenNote: 6.1.0
 Suggests: testthat, covr

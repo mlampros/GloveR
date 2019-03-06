@@ -4,8 +4,9 @@
 \alias{shuffle_cooccurrences}
 \title{Function to shuffle the entries of the word-word cooccurrence file}
 \usage{
-shuffle_cooccurrences(input_cooccurences = NULL, output_cooccurences = NULL,
-  memory_gb = 4, arraySize = 0, trace = FALSE)
+shuffle_cooccurrences(input_cooccurences = NULL,
+  output_cooccurences = NULL, memory_gb = 4, arraySize = 0,
+  trace = FALSE)
 }
 \arguments{
 \item{input_cooccurences}{a character string specifying the path to the cooccurences text file}
@@ -41,4 +42,3 @@ http://nlp.stanford.edu/projects/glove/
 
 http://nlp.stanford.edu/pubs/glove.pdf
 }
-
